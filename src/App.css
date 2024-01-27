@@ -89,4 +89,28 @@ h1 {
 .delete-icon {
   cursor: pointer;
 }
- 
+ .completed-count{
+  color: white;
+ }
+
+ .clear-all{
+   background-color: #8758ff; /* Red background color */
+  color: #fff; /* White text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+ }
+ .clear-all:hover {
+  background-color: #a58ee0; /* Darker shade on hover */
+}
+
+.completed-count {
+
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #7b7676; /* Dark gray text color */
+}
+

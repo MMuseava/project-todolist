@@ -1,0 +1,35 @@
+/* clearAll.style.css */
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #8758ff; /* Gradient background (blue-to-green) */
+  padding: 20px;
+  border: 2px solid #fff; /* White border color */
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Subtle box shadow */
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.yes,
+.no {
+  padding: 10px 20px;
+  background-color: #fff; /* White button background */
+  color: #333; /* Dark text color */
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.yes:hover,
+.no:hover {
+  background-color: #eee; /* Lighter shade on hover */
+}

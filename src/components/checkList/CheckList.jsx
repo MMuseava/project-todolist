@@ -10,6 +10,7 @@ const CheckList = ({ addTodo }) => {
 		addTodo(value);
 		setValue("");
 	};
+	
 	return (
 		<div>
 			<form onSubmit={handleSubmit} className="TodoForm">
@@ -23,6 +24,7 @@ const CheckList = ({ addTodo }) => {
 				<button type="submit" className="todo-btn">
 					Add Task{" "}
 				</button>
+				
 			</form>
 		</div>
 	);
